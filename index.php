@@ -9,7 +9,6 @@
 </head>
 <body>
   <div class="container-fluid">
-
       <div class="position-absolute top-50 start-50 translate-middle">
         <div id="divCenter" class="form-floating">
           <textarea class="form-control" id='textBox' cols="100" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 300px"></textarea>
