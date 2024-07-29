@@ -1,1 +1,1 @@
-mod simplu de a salva niste stringur in baza de date
+mod simplu de a salva niste string-uri in baza de date
