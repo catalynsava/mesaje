@@ -5,7 +5,7 @@ if (isset($_POST['message'])) {
   $sql .= '\'' . $_POST['message'] . '\');';
 }
 
-$servername = "LOCALHOST";
+$servername = "localhost";
 $username = 'root';
 $password =  'admin';
 $database = 'if0_36451936_db';
