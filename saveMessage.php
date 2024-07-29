@@ -5,11 +5,6 @@ if (isset($_POST['message'])) {
   $sql .= '\'' . $_POST['message'] . '\');';
 }
 
-/*$servername = "sql207.infinityfree.com";
-$username = 'if0_36451936';
-$password =  'H6Tuf7EF9ptA5d';
-$database = 'if0_36451936_db';*/
-
 $servername = "LOCALHOST";
 $username = 'root';
 $password =  'admin';
