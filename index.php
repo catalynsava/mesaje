@@ -9,9 +9,10 @@
 </head>
 <body>
   <div class="container-fluid">
-      <div class="position-absolute top-50 start-50 translate-middle">
-        <div id="divCenter" class="form-floating">
-          <textarea class="form-control" id='textBox' cols="100" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 300px"></textarea>
+      <div id='divCenter' class="position-absolute top-50 start-50 translate-middle">
+        <h5>trimite-mi un mesaj</h5>
+        <div class="form-floating">
+          <textarea class="form-control" id='textBox' cols="100" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 250px"></textarea>
           <label for="floatingTextarea2">mesaj</label>
           <button type="button" id="sendMessage" class="btn btn-primary">send</button>
         </div>
@@ -38,6 +39,7 @@
             dataType: "text",
             success: function(resultData) { 
               $('#divCenter').html('<h4>mesajul a fost trimis.</h4>');
+              setTimeout(location.reload.bind(location), 2000);
             }
       });
     }
